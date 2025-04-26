@@ -32,7 +32,7 @@ export const metadata: Metadata = {
   icons: {
     icon: "/favicon.ico", // if you have a favicon
   },
-  metadataBase: new URL("stories-feature.vercel.app"), // put your domain here if deployed
+  metadataBase: new URL("https://stories-feature.vercel.app"), // put your domain here if deployed
 };
 
 export default function RootLayout({
