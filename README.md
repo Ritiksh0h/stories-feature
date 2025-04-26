@@ -1,36 +1,100 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 📸 Stories Feature Project
 
-## Getting Started
+This project is a **client-side stories feature**, inspired by Instagram, Snapchat, and other popular apps — built according to the [Roadmap.sh Stories Feature Project](https://roadmap.sh/projects/stories-feature) description.
 
-First, run the development server:
+---
+
+## 🚀 Features
+
+- Upload and display **stories** (images).
+- **Stories automatically expire after 24 hours**.
+- **Progress bar** while viewing a story.
+- **Swipe left/right** or use **arrow buttons** to navigate between stories.
+- **Tap to pause/resume** story timer.
+- **Delete** a story manually before it expires.
+- **Responsive design** for desktop, tablet, and mobile.
+- **Image upload constrained to maximum dimensions** of **1080px width** and **1920px height** (with aspect ratio preserved).
+- **LocalStorage** used for persistence (client-side only).
+
+---
+
+## 📋 How It Works
+
+- When a user **uploads a story**, the image is resized to max **1080×1920** dimensions.
+- The story is saved into `localStorage` along with a `createdAt` timestamp.
+- When **viewing** stories:
+  - A **progress bar** shows for each story.
+  - After **3 seconds**, the next story automatically plays.
+  - The user can **swipe left/right** (drag) to change stories manually.
+- An **interval** checks every **60 seconds** and deletes expired stories automatically.
+
+---
+
+## ✨ Live Demo
+
+(Deploy it using Vercel, Netlify, or any static hosting service and put the link here!)
+
+---
+
+## 🧑‍💻 How To Run Locally
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/yourusername/stories-feature.git
+cd stories-feature
+```
+
+2. Install dependencies:
+
+```bash
+npm install
+# or
+yarn install
+```
+
+3. Start the local development server:
 
 ```bash
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+4. Open your browser and go to `http://localhost:3000`.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📄 Requirements Met
 
-## Learn More
+✅ Use any frontend framework → **Next.js (React)**  
+✅ Any libraries/tools allowed → **Framer Motion, TailwindCSS**  
+✅ Client-side only → **Fully client-side** (localStorage)  
+✅ Responsive → **Fully responsive**  
+✅ Image constraint → **Max 1080px x 1920px on upload**  
+✅ Stories expire after 24 hours → **Implemented**
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📚 Resources
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- [Roadmap.sh - Stories Feature Project](https://roadmap.sh/projects/stories-feature)
+- [Framer Motion Documentation](https://www.framer.com/motion/)
+- [TailwindCSS Documentation](https://tailwindcss.com/docs)
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🏆 License
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This project is open-source.  
+Feel free to fork, improve, and share!
+
+---
+
+# 🚀 Happy Coding!
+
+---
+
+Would you also like me to generate a **cooler version** (for example, adding badges like "Next.js", "Framer Motion", "Responsive", etc.) if you want to make it look even more fancy on GitHub? 🎖  
+I can create that too if you want! 🔥  
+Let me know!# stories-feature
