@@ -41,7 +41,7 @@ This project is a **client-side stories feature**, inspired by Instagram, Snapch
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/stories-feature.git
+git clone https://github.com/Ritiksh0h/stories-feature
 cd stories-feature
 ```
 

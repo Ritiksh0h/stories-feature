@@ -27,12 +27,12 @@ export const metadata: Metadata = {
     "Upload Images",
     "Responsive Design",
   ],
-  authors: [{ name: "Your Name", url: "https://yourwebsite.com" }],
-  creator: "Your Name",
+  authors: [{ name: "Ritik shah", url: "https://ritikshah.vercel.app" }],
+  creator: "Ritik Shah",
   icons: {
     icon: "/favicon.ico", // if you have a favicon
   },
-  metadataBase: new URL("https://your-deployment-url.com"), // put your domain here if deployed
+  metadataBase: new URL("stories-feature.vercel.app"), // put your domain here if deployed
 };
 
 export default function RootLayout({
